@@ -1,0 +1,30 @@
+body{
+box-sizing: border-box;
+}
+.container-fluid{
+  background-color: #17202A ;
+  color: white;
+  width: 100%;
+}
+h1{
+color: white;
+}
+#logo {
+  top: 20px;
+  left: 5px;
+  width: 10%;
+  border-radius: 90px;
+  border: 1px solid #ccc;
+}
+#search{
+  color:grey;
+  border-color: grey;
+}
+#carousel{
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel1{
+  color: black;
+  font-size: 1.5em;
+}
