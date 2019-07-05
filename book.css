@@ -1,6 +1,10 @@
 body{
 box-sizing: border-box;
 }
+#search{
+  color:grey;
+  border-color: grey;
+}
 .container-fluid{
   background-color: #FF5733   ;
   color: white;
