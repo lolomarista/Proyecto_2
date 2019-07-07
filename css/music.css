@@ -2,15 +2,17 @@ body{
 box-sizing: border-box;
 }
 .container-fluid{
-  background-color: #633974  ;
+  background-color: #A2A2A2  ;
   color: white;
   width: 100%;
 }
-
+.jumbotron{
+  background-color: #B6B5B3;
+}
 #logo {
   top: 20px;
   left: 5px;
-  width: 10%;
+  width: 80%;
   border-radius: 90px;
   border: 1px solid #ccc;
 }
@@ -21,19 +23,18 @@ box-sizing: border-box;
   color:grey;
   border-color: grey;
 }
+#piojos{
+  height: 55vh!important;
+}
+#Abeyroad {
 
-
-
-.card-img-top {
-
-    width: 80%;
-    height: 70vh!important;
+  height: 55vh!important;
 }
 .icon-star-full:before {
   content: "\e9d9";
   border-color: black;
   color: #F1C40F  ;
-}
+  }
 .icon-cart:before {
   content: "\e93a";
   color:grey;
@@ -42,5 +43,18 @@ box-sizing: border-box;
 .icon-share2:before {
   content: "\ea82";
   color:grey;
+
+}
+footer{
+  background-color: black;
+  height: 30%;
+  margin-bottom: 0;
+
+}
+@media (max-width: 768px){
+  #logo{
+    display: none;
+  }
+
 
 }
