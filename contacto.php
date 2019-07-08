@@ -2,14 +2,16 @@
 $error_email=false;
 $error_nombre=false;
 
-if (($_POST["nombre"]==""||$_POST["nombre"]==null) {
+if (($_POST["nombre"]==""||$_POST["nombre"]==null)){
   $error_nombre=true;
   echo "error en el nombre";
 
 }
-if (($_POST["email"]==""||$_POST["email"]==null||!(filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)))formular{
+
+if (($_POST["email"]==""||$_POST["email"]==null||!(filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)))){
   $error_email=true;
-  echo "error en el email";
+  echo "error en el email" ;
+
 }if (strlen($_POST["nombre"])==0) {
 
   echo "Hay un error en el nombre";
@@ -99,7 +101,7 @@ $almacenar=$_POST["nombre"]
                <div class="md-form">
                  <form class="contacto" action="index.html" method="post">
 
-                 
+
                  <i class="fas fa-user prefix grey-text"></i>
                  <input type="text" id="form-name" class="form-control">
                  <label for="nombre">Nombre</label>
