@@ -19,6 +19,7 @@ box-sizing: border-box;
 .btn {
   background-color: grey;
 }
+
 #search{
   color:grey;
   border-color: grey;
@@ -26,25 +27,11 @@ box-sizing: border-box;
 #piojos{
   height: 55vh!important;
 }
-#Abeyroad {
+.imgtop{
 
   height: 55vh!important;
 }
-.icon-star-full:before {
-  content: "\e9d9";
-  border-color: black;
-  color: #F1C40F  ;
-  }
-.icon-cart:before {
-  content: "\e93a";
-  color:grey;
 
-}
-.icon-share2:before {
-  content: "\ea82";
-  color:grey;
-
-}
 footer{
   background-color: black;
   height: 30%;
