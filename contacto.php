@@ -99,7 +99,7 @@ $almacenar=$_POST["nombre"]
                <p class="dark-grey-text">Dejanos tu comentario.</p>
                <!-- Body -->
                <div class="md-form">
-                 <form class="contacto" action="index.html" method="post">
+                 <form class="contacto" action="contacto.php" method="post">
 
 
                  <i class="fas fa-user prefix grey-text"></i>
@@ -114,12 +114,12 @@ $almacenar=$_POST["nombre"]
                <div class="md-form">
                  <i class="fas fa-tag prefix grey-text"></i>
                  <input type="text" id="form-Subject" class="form-control">
-                 <label for="form-Subject">Asunto</label>
+                 <label for="subject">Asunto</label>
                </div>
                <div class="md-form">
                  <i class="fas fa-pencil-alt prefix grey-text"></i>
                  <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-                 <label for="form-text">Send message</label>
+                 <label for="text">Send message</label>
                </div>
                <div class="text-center">
                  <button class="submit">Enviar</button>
