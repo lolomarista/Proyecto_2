@@ -1,82 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-<link rel="stylesheet" href="https://i.icomoon.io/public/temp/f8930cc11d/UntitledProject/style.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <style>
-    /* Make the image fully responsive */
-    .carousel-inner img {
-      width: 80%;
-      height: 80%;
-    }
-    </style>
-
-    <title>Cocina</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Index</title>
   </head>
-<body>
+  <body>
+    <header>
+      <?php
+      include("navBar.php");
+      ?>
+    </header>
 
-    <div class="menu">
-          <?php include('header.php') ?>
+    <main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Music</h1>
+      <p>"La música expresa lo que no puede ser dicho y aquello sobre lo que es imposible permanecer en silencio". Víctor Hugo </p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
     </div>
-    <section class="carousel">
-
-      <div class="container mt-3">
+  </div>
 
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+</main>
 
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ul>
-      </ul>
-
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./imagenes/fondonovelas.jpg" alt="novelas" width="1100" height="500">
-        </div>
-        <div class="carousel-item">
-          <img src="./imagenes/fondoelectronica.jpg" alt="electronica" width="1100" height="500">
-        </div>
-        <div class="carousel-item">
-          <img src="./imagenes/autoayuda.jpg"alt="ficcion" width="1100" height="500">
-        </div>
-        <div class="carousel-item">
-          <img src="./imagenes/fondofolk.jpeg" alt="Folk" width="1100" height="500">
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
+<div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Book</h1>
+      <p>"Un lector vive mil vidas antes de morir. El que nunca lee solo vive una". George R.R. Martin.<p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
     </div>
+  </div>
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
 
-    </div>
-    </section>
+  <!-- Footer Elements -->
+  <div class="container">
 
-    <div class="footer">
-      <?php include("footer.php")?>
-    </div>
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
 
+  </div>
+  <!-- Footer Elements -->
 
-   </body>
- </html>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> Todos los derechos quedan reservados a los autores y editoriales</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  </body>
+</html>

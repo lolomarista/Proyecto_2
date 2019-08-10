@@ -18,7 +18,7 @@
 
 
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="./index.html">Book&Music</a>
+        <a class="navbar-brand" href="#">Book&Music</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,7 +42,7 @@
                     </div>
                   </li>
                   <li class="nav-item ">
-                  <a class="nav-link " href="pop.php">Ir POP Music</a>
+                  <a class="nav-link " href="pop.html">Ir POP Music</a>
                     </div>
                   </li>
                 </ul>
